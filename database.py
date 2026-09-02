@@ -1,5 +1,5 @@
 """
-🍿 Que coño ver!!! #YConCervezaEsMejor
+🍿 Que coño ver?🍺 #YConCervezaEsMejor
 -----------------------------------------
 Capa de acceso a datos. Todo en SQLite local, sin servicios externos.
 """
