@@ -23,7 +23,7 @@ RATING_LABELS_PLAIN = {
     3: "3 BIRRAS",
     4: "4 BIRRAS",
     5: "5 BIRRAS",
-    6: "6 BIRRAS - LA MAJOE",
+    6: "6 BIRRAS - MUY DEPINGA",
 }
 
 
@@ -36,7 +36,7 @@ def whatsapp_link(text, phone=None):
 
 
 def build_list_share_text(username, items):
-    lines = [f"🍿 *Que coño ver!!!* de {username} #YConCervezaEsMejor", ""]
+    lines = [f"🍿 *Que coño ver? 🍺* de {username} #YConCervezaEsMejor", ""]
     for it in items[:15]:
         emoji = "🎬" if it["category"] == "pelicula" else "📺"
         lines.append(f"{emoji} {it['title']} — {RATING_LEVELS[it['rating']]}")
@@ -47,7 +47,7 @@ def build_list_share_text(username, items):
 
 def build_profile_share_text(username):
     return (
-        f"👤 Mira mi perfil cinéfilo en *Que coño ver!!!*: {username}\n"
+        f"👤 Mira mi perfil cinéfilo en *Que coño ver? 🍺*: {username}\n"
         f"🍺 Calificamos pelis y series en birras, de 1 café a LA MAJOE (6 birras)\n"
         f"#YConCervezaEsMejor\n"
         f"👉 www.rockandbirra.com"
