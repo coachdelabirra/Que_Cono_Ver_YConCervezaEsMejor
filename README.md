@@ -1,8 +1,8 @@
-# 🍿 Que coño ver !!! `#YConCervezaEsMejor`
+# 🍿 Que coño ver? 🍺 `#YConCervezaEsMejor`
 
 App web hecha en **Python + Streamlit**, estilo retro 8-bit (NES), para
 llevar tu propia lista de películas y series, calificarlas de **1 café ☕
-(lo peor)** a **6 birras 🍺🍺🍺🍺🍺🍺 "LA MAJOE" (lo mejor)**, comparar gustos
+(lo peor)** a **6 birras 🍺🍺🍺🍺🍺🍺 "Muy Depinga**, comparar gustos
 con amigos y compartir todo por WhatsApp.
 
 Un proyecto para **Rock And Birra Radio** — [rockandbirra.com](https://rockandbirra.com/)
@@ -16,7 +16,7 @@ local. Gratis para uso personal.
 
 - 🎬 Lista de **Películas** y 📺 lista de **Series**, con portada opcional
   (sube una imagen desde tu teléfono).
-- 🍺 Escala de calificación tipo "six pack": de **6 birras (LA MAJOE)**
+- 🍺 Escala de calificación tipo "six pack": de **6 birras (Muy Depina)**
   hasta **1 birra**, y **1 café** como peor nota posible.
 - 🏆 **Ranking automático**: SQLite ordena tu lista en tiempo real de
   mejor a peor calificación.
@@ -86,7 +86,7 @@ Se abrirá sola en tu navegador en `http://localhost:8501`.
 cd que_cono_ver
 git init
 git add .
-git commit -m "Primera versión: Que coño ver!!! #YConCervezaEsMejor"
+git commit -m "Primera versión: Que coño ver? 🍺 #YConCervezaEsMejor"
 git branch -M main
 git remote add origin https://github.com/TU_USUARIO/que-cono-ver.git
 git push -u origin main
@@ -127,7 +127,7 @@ toda la lógica SQL está aislada en ese único archivo.
 
 | Valor | Significado |
 |-------|-------------|
-| 6 🍺🍺🍺🍺🍺🍺 | **LA MAJOE** — lo mejor de lo mejor |
+| 6 🍺🍺🍺🍺🍺🍺 | **Muy Depinga** — lo mejor de lo mejor |
 | 5 🍺🍺🍺🍺🍺 | Muy buena |
 | 4 🍺🍺🍺🍺 | Buena |
 | 3 🍺🍺🍺 | Normalita |

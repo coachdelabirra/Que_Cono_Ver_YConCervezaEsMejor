@@ -1,5 +1,5 @@
 """
-🍿 Que coño ver?🍺 #YConCervezaEsMejor
+🍿 Que coño ver? 🍺 #YConCervezaEsMejor
 -----------------------------------------
 Capa de acceso a datos. Todo en SQLite local, sin servicios externos.
 """
@@ -12,7 +12,7 @@ DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "quecono.db")
 COVERS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "covers")
 os.makedirs(COVERS_DIR, exist_ok=True)
 
-# Escala de calificación: 0 = 1 café (peor) ... 6 = 6 birras (MUY DEPINGA)
+# Escala de calificación: 0 = 1 café (peor) ... 6 = 6 birras (Muy Depinga)
 RATING_LEVELS = {
     0: "☕ 1 Café",
     1: "🍺 1 Birra",
@@ -20,7 +20,7 @@ RATING_LEVELS = {
     3: "🍺🍺🍺 3 Birras",
     4: "🍺🍺🍺🍺 4 Birras",
     5: "🍺🍺🍺🍺🍺 5 Birras",
-    6: "🍺🍺🍺🍺🍺🍺 Six-Pack",
+    6: "🍺🍺🍺🍺🍺🍺 La Mejor",
 }
 
 

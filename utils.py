@@ -23,7 +23,7 @@ RATING_LABELS_PLAIN = {
     3: "3 BIRRAS",
     4: "4 BIRRAS",
     5: "5 BIRRAS",
-    6: "6 BIRRAS - MUY DEPINGA",
+    6: "6 Six-Pack - Muy Depinga",
 }
 
 
@@ -47,8 +47,8 @@ def build_list_share_text(username, items):
 
 def build_profile_share_text(username):
     return (
-        f"👤 Mira mi perfil cinéfilo en *Que coño ver? 🍺*: {username}\n"
-        f"🍺 Calificamos pelis y series en birras, de 1 café a LA MAJOE (6 birras)\n"
+        f"👤 Mira mi perfil cinéfilo en *Que coño ver!!!*: {username}\n"
+        f"🍺 Calificamos pelis y series en birras, de 1 café a Muy Depinga (6 birras)\n"
         f"#YConCervezaEsMejor\n"
         f"👉 www.rockandbirra.com"
     )

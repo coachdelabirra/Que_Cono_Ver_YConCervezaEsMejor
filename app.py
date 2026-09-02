@@ -1,5 +1,5 @@
 """
-🍿 Que coño ver? 🍺 #YConCervezaEsMejor
+🍿 Que coño ver? 🍺  #YConCervezaEsMejor
 ==========================================
 App Streamlit, 100% Python, sin APIs ni servicios externos.
 Base de datos: SQLite local. Interfaz: estilo retro 8-bit (NES).
@@ -293,8 +293,8 @@ def page_catalogo(user, category):
 
 
 def page_ranking(user):
-    st.header("🏆 Ranking automático — MUY DEPINGA")
-    st.caption("Ordenado en tiempo real de 6🍺 (MUY DEPINGA) a 1☕ (lo peor)")
+    st.header("🏆 Ranking automático — Muy Depinga")
+    st.caption("Ordenado en tiempo real de 6🍺 (Muy Depinga) a 1☕ (lo peor)")
     items = db.get_items(user["id"])
     if not items:
         st.info("Añade películas o series para ver tu ranking.")
@@ -416,7 +416,7 @@ def main_app(user):
     with st.sidebar:
         if os.path.exists(LOGO_PATH):
             st.image(LOGO_PATH, use_container_width=True)
-        st.markdown(f"<p class='pixel-hint'>👉🍺 #YConCervezaEsMejor 🍺👈</p>", unsafe_allow_html=True)
+        st.markdown(f"<p class='pixel-hint'>👉 ES AQUÍ, PINCHA 👈</p>", unsafe_allow_html=True)
         menu = st.radio(
             "Menú",
             [
