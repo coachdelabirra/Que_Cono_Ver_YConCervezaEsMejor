@@ -416,7 +416,7 @@ def main_app(user):
     with st.sidebar:
         if os.path.exists(LOGO_PATH):
             st.image(LOGO_PATH, use_container_width=True)
-        st.markdown(f"<p class='pixel-hint'>👉 ES AQUÍ, PINCHA 👈</p>", unsafe_allow_html=True)
+        st.markdown(f"<p class='pixel-hint'>👉 #YConCervezaEsMejor 👈</p>", unsafe_allow_html=True)
         menu = st.radio(
             "Menú",
             [
