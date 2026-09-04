@@ -47,7 +47,7 @@ def build_list_share_text(username, items):
 
 def build_profile_share_text(username):
     return (
-        f"👤 Mira mi perfil cinéfilo en *Que coño ver!!!*: {username}\n"
+        f"👤 Mira mi perfil cinéfilo en *Que coño ver? 🍺*: {username}\n"
         f"🍺 Calificamos pelis y series en birras, de 1 café a Muy Depinga (6 birras)\n"
         f"#YConCervezaEsMejor\n"
         f"👉 www.rockandbirra.com"
