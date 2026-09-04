@@ -161,7 +161,7 @@ def login_screen():
             st.image(LOGO_PATH, use_container_width=True)
         st.markdown(f"<h1 style='text-align:center;'>{APP_TITLE}</h1>", unsafe_allow_html=True)
         st.markdown(f"<p class='pixel-hint'>{APP_TAG}</p>", unsafe_allow_html=True)
-        st.markdown("<div class='pixel-hint'>▼ INSERT COIN — ES AQUÍ, PINCHA ▼</div>", unsafe_allow_html=True)
+        st.markdown("<div class='pixel-hint'>▼ INSERT COIN ▼</div>", unsafe_allow_html=True)
 
         st.markdown("### 🎮 Jugador existente")
         users = db.get_users()
